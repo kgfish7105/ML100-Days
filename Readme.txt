@@ -125,6 +125,10 @@ df 橫向合併用 merge
 
 均值編碼平滑化
 
+--------------------------HW_24-----------------------                   
+計數編碼 ( Counting )   
+特徵雜湊 ( Feature Hash ) 
 
-                        
+觀察欄位相異值數量   pd.Series.nunique
+pd.merge                      
                            
