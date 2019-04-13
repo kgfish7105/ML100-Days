@@ -174,3 +174,12 @@ GDBＴ(梯度提升樹) 嵌入法
 <分類預測的集成>
 葉編碼 (leaf encoding)
                   
+
+
+--------------------------HW_34-----------------------
+K-fold Cross-validation (random_state: 確保每次得到結果固定)
+SK learn的 train-test split函數 (test_size 可以是0-, float 也可以是int)
+
+np.append(array1, array2)
+
+驗證集常用來評估不同超參數或不同模型的結果
