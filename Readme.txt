@@ -65,6 +65,10 @@ Imputer
 MinMaxScaler
 Fit the model
 LogisticRegression
+
+reshape(-1, 1) 在這邊的用法是將資料轉成 n x 1 的形狀（-1 表示不指定，由其他維度推算）。
+這邊要這麼做的原因是因為 MinMaxScaler.fit_transform 的用法。
+
 --------------------------HW_17-----------------------
 LinearRegression.fit(train_X, train_Y)
 train_Y = 轉換後的label
@@ -201,6 +205,9 @@ F1 - Score (Precision, Recall), 範圍: [0, 1] (分類問題中，我們有時會對某一類別的
 --------------------------HW_37-----------------------
 Regression 模型
 
+penalty引數的選擇會影響我們損失函式優化演算法的選擇。即引數solver的選擇，
+如果是L2正則化，那麼4種可選的演算法{‘newton-cg’, ‘lbfgs’, ‘liblinear’, ‘sag’}都可以選擇。
+但是如果penalty是L1正則化的話，就只能選擇‘liblinear’了。這是因為L1正則化的損失函式不是連續可導的
 --------------------------HW_38-----------------------
 Linear Regression
 Logisitic Regression 模型應用
