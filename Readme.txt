@@ -246,3 +246,14 @@ LASSO 與 Ridge :用於修正Linear model的實作
 
 --------------------------HW_44-----------------------
 隨機森林Random forest 實作
+
+--------------------------HW_45-----------------------
+看李弘毅 Ensemble影片
+--------------------------HW_46-----------------------
+範例: 數字辨識
+gradient boosting machine (DBDT)
+PCA (降低Feature維度，用於視覺化看分類好壞)
+SVM
+K-means
+SK-learn map (教你什麼條件用什麼模型)
+confusion_matrix
