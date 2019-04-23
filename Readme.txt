@@ -181,7 +181,8 @@ GDB⑩(辫矗ど攫) 碠猭
 
 
 --------------------------HW_34-----------------------
-K-fold Cross-validation (random_state: 絋玂–Ω眔挡狦㏕﹚)
+K-fold Cross-validation (random_state: 絋玂–Ω眔挡狦㏕﹚)
+
 SK learn train-test splitㄧ计 (test_size 琌0-, float 琌int)
 
 np.append(array1, array2)
@@ -257,3 +258,10 @@ SVM
 K-means
 SK-learn map (毙ぐ或兵ンノぐ或家)
 confusion_matrix
+
+--------------------------HW_47-----------------------
+禬把计秸俱筁祘
+1.р戈ちΘ train data(3/4) test data(1/4)
+2.рtrain data ノCross validation(磷ㄏmodelㄌ苦舱train data獂て) だ甅ノGrid searchт程ㄎ把计
+3.参璸–近cross validation把计匡拒瞷程Ω计ê舱把计
+4.甅ノmodeltest data
